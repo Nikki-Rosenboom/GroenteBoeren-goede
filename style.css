@@ -1,0 +1,297 @@
+/* index pagina */
+
+body{
+    background-color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.groen-vlak{
+    background-color:#639451;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color:rgba(29, 87, 24, 0.827);
+    gap: 5px;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color:#639451;
+    padding: 10px;
+    background-color:rgb(233, 233, 233);
+    border-radius: 8px;
+}
+
+.image-logo{
+    width: 20px;
+}
+
+.image-container{
+    display: flex;
+    position: relative;
+}
+
+.mijnafbeelding{
+    width: 200px;
+    height: 230px;
+}
+
+.mijnafbeelding1{
+    width: 100%;
+    position:absolute;
+    margin-top: -50px;
+    margin-left: 25px;
+}
+
+.article{
+    background-color: #639451;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-images{
+    display: flex;
+    justify-content: space-between;
+    margin:30px;
+    margin-top: -15px;
+}
+
+.white{
+    color: white;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.afbeeldingboer{
+    height: 245px;
+    width: 300px;
+}
+
+.text-container{
+    display: flex;
+    color:white;
+    background-color: #A8CC5A;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 58px;
+    margin-top: 46px;
+    margin-left: 8px;
+    margin-right: 8px;
+    gap: 16px;
+}
+
+.article-1{
+    display:flex ;
+    flex-direction: row-reverse;
+    background-color: #A8CC5A;
+}
+
+.afbeeldingkrat{
+    margin: 16px;
+}
+
+.content{
+    color: white;
+    margin-left: 16px;
+    width: 50%;
+}
+
+h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    background-color: #639451;
+    color: white;
+}
+
+footer div{
+    padding: 16px;
+}
+
+/* pagina 2 */
+
+h1{
+    font-size: 42px;
+    background-color: #639451;
+    color: white;
+}
+
+section h1{
+    margin-top:-16px;
+    padding-top: 16px;
+}
+
+section article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.groen-container{
+    background-color: #639451;
+    color: white;
+}
+
+/* pagina 3 */
+
+h3{
+    font-size: 28px;
+    padding-top: 8px;
+    margin: 8px;
+}
+
+.aangepastevorm{
+    background-color: #639451;
+    color: white;
+    padding: 150px;
+    padding-left: 0;
+    padding-top: 1px;
+    margin-top: -17px;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 60%, 0% 89%);
+
+}
+
+.right-side{
+    text-align: end;
+    align-items: end;
+    background-color: #639451;
+    color: white;
+    clip-path: polygon(30% 30%, 160% 0%, 100% 100%, 0% 100%);
+    margin-bottom: 55px;
+    margin-top: -220px;
+    padding: 48px;
+    padding-right: 0;
+    padding-left: 80px;
+    padding-top: 180px;
+}
+
+.small{
+    width: 5%;
+}
+
+.aangepastevorm-1{
+    background-color: #639451;
+    color: white;
+    clip-path: polygon(0% 5%, 60% 0%, 100% 100%, 0% 100%);
+    padding-right: 70px;
+    padding-bottom: 32px;
+}
+
+/* pagina 4 */
+
+.flex{
+    background-color: #639451;
+    display: flex;
+}
+
+.flex img{
+    width: 200px;
+    padding: 10px;
+}
+
+.text-right{
+    padding-left: 7px;
+    line-height: 5px;
+    color: white;
+}
+
+.content-container{
+    background-color:#639451cb;
+    color: white;
+    padding: 32px;
+}
+.article-brown{
+    background-color: rgb(56, 35, 14);
+    border-radius: 25px;
+    padding: 16px;
+    margin: 10px;
+    color: white;
+    margin-top: 80px;
+}
+
+.article-brown div{
+    background-color: #5f5033e9;
+    border-radius: 25px;
+    padding: 16px;
+}
+
+.buiten-kader{
+    position: absolute;
+    margin-top: -85px;
+}
+
+.positie{
+    margin-top: 42px;
+}
+
+.content-3{
+    padding-bottom: 50px;
+}
+
+/* slider */
+
+.container{
+    padding: 2rem;
+}
+
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 20/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 0.5rem;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    
+    border-radius: 50%;
+    background-color:white;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+}
